@@ -1,5 +1,12 @@
 import "./globals.css";
 import { Toaster } from "react-hot-toast";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Task Manager | Full Stack Task Management System",
+  description:
+    "A full-stack Task Management System built with Next.js, Express, Prisma, and JWT authentication. Users can securely manage tasks with full CRUD functionality.",
+};
 
 export default function RootLayout({
   children,
